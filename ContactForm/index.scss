@@ -1,0 +1,58 @@
+form p{
+
+  font-size: 12px;
+  text-align: start;
+}
+
+
+$enable-negative-margins: true;
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+.mb-n1 {
+  margin-top: -0.25rem !important;
+}
+
+.msg{
+  color:green;
+  display: none;
+}
+
+.msgAppear{
+  display: block;
+}
+
+.number{
+  height: 40px;
+}
+
+.country{
+  
+  border: 1px solid rgb(211, 211, 211);
+  padding-top: 4px;
+}
+
+
+@media(max-width:667px){
+  .country{
+    max-width:314px ;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 225, 225);
+    
+  }
+  
+  .codeandnumber{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .contries{
+    max-width: 500px;
+  }
+  
+}
+
+
+  
